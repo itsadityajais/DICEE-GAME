@@ -1,0 +1,23 @@
+.slide-bar {
+  background-color: #282a35;
+  display: flex;
+  flex-wrap: wrap;
+  /* position: fixed; */
+}
+
+.slidebarbutton {
+  background-color: #282a35;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.slidebarbutton:hover {
+  background-color: black;
+}
+.slidebarbutton:active {
+  background-color: #068254;
+}

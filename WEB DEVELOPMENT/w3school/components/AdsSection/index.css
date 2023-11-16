@@ -1,0 +1,11 @@
+.promotion-section {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.promotion-image {
+  display: flex;
+  margin-bottom: 50px;
+  border-radius: 3%;
+}

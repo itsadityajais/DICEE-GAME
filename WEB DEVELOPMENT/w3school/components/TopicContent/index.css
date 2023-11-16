@@ -1,0 +1,90 @@
+.topic-content {
+  display: flex;
+  flex-direction: column;
+}
+.navigationbutton {
+  display: flex;
+  justify-content: space-between;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+}
+.raw-button {
+  border-width: 0px;
+  border-radius: 3px;
+  height: 40px;
+  padding-inline: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  min-width: 100px;
+  cursor: pointer;
+}
+.primary-button {
+  background-color: #04aa6d;
+  color: white;
+}
+.primary-button:hover {
+  opacity: 0.9;
+}
+.tutorial-button {
+  background-color: black;
+  color: white;
+}
+.tutorial-button:hover {
+  opacity: 0.8;
+}
+.quiz-button {
+  background-color: rgb(25, 142, 244);
+  color: white;
+}
+.quiz-button:hover {
+  opacity: 0.9;
+}
+.box {
+  padding: 30px;
+  background-color: #d9eee1;
+}
+.imp-box {
+  background-color: #ffffcc;
+  padding: 15px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.examplebox {
+  background-color: #e7e9eb;
+  padding: 0px 30px 30px 30px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+.innerbox {
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 10px;
+  border-left: 5px solid #04aa6d;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+.color-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 20px;
+  padding-right: 10%;
+}
+.colordivtext {
+  display: flex;
+  color: white;
+  margin-right: 25px;
+  height: 80px;
+  width: 223px;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  font-size: 25px;
+}

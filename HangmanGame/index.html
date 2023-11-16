@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Hangman</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">Hangman Game</h1>
+      <p>Please Select an Option:</p>
+      <div id="selectTab">
+        <button class="selectButton">Animals</button>
+        <button class="selectButton2">Birds</button>
+        <button class="selectButton3">Programmimg</button>
+      </div>
+
+      <div id="guessCount">
+        <p class="wrongGuess">
+          Wrong Guesses:<span id="mistakes"> 0 </span> of
+          <span id="maxWrong"></span>
+        </p>
+      </div>
+      <div class="img-div">
+        <img id="pic" src="assets/0.jpg" />
+      </div>
+      <div>
+        <p>Guess the Programming Language:</p>
+        <p id="spotlight">The words to be guessed goes here</p>
+      </div>
+      <div id="keyboardButton"></div>
+      <div class="keyboad">
+        <button class="resetButton" onclick="reset()">Reset</button>
+      </div>
+    </div>
+    <script src="hangman.js"></script>
+  </body>
+</html>

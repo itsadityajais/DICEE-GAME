@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(44, 153, 177);
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  color: white;
+}
+#keyboardButton {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+#spotlight {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: rgb(220, 240, 241);
+}
+.btn {
+  height: 50px;
+  width: 50px;
+  color: white;
+  background-color: rgb(190, 103, 37);
+  border-color: black;
+  border-radius: 5px;
+  margin: 10px 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.btn:disabled {
+  background-color: white;
+  color: black;
+  opacity: 0.3;
+  border-color: rgb(0, 0, 0);
+}
+.resetButton {
+  border-radius: 5px;
+  border-color: black;
+  cursor: pointer;
+  height: 40px;
+  width: 80px;
+  color: white;
+  background-color: rgb(58, 214, 26);
+  font-size: 20px;
+  margin-top: 50px;
+}
+.selectButton {
+  border-radius: 5px;
+  border-color: black;
+  cursor: pointer;
+  height: 40px;
+  width: auto;
+  color: white;
+  background-color: rgb(138, 20, 235);
+  font-size: 20px;
+  margin: 0px 50px 0px 50px;
+}
+.selectButton2 {
+  border-radius: 5px;
+  border-color: black;
+  cursor: pointer;
+  height: 40px;
+  width: auto;
+  color: white;
+  background-color: rgb(138, 20, 235);
+  font-size: 20px;
+  margin: 0px 50px 0px 50px;
+}
+.selectButton3 {
+  border-radius: 5px;
+  border-color: black;
+  cursor: pointer;
+  height: 40px;
+  width: auto;
+  color: white;
+  background-color: rgb(138, 20, 235);
+  font-size: 20px;
+  margin: 0px 50px 0px 50px;
+}

@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(36, 39, 72);
+}
+#container {
+  display: flex;
+  justify-content: center;
+  color: azure;
+  font-size: 80px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.set {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  height: 150px;
+  width: 200px;
+  color: rgb(10, 10, 10);
+  font-size: 50px;
+  font-weight: bolder;
+  border-color: #565ca1;
+  border-width: 10px;
+}
+.w-drum {
+  background-image: url(assets/images/tom1.png);
+  border-radius: 20px;
+}
+.a-drum {
+  background-image: url(assets/images/tom2.png);
+  border-radius: 20px;
+}
+.s-drum {
+  background-image: url(assets/images/tom3.png);
+  border-radius: 20px;
+}
+.d-drum {
+  background-image: url(assets/images/tom4.png);
+  border-radius: 20px;
+}
+.j-drum {
+  background-image: url(assets/images/snare.png);
+  border-radius: 20px;
+}
+.k-drum {
+  background-image: url(assets/images/crash.png);
+  border-radius: 20px;
+}
+.l-drum {
+  background-image: url(assets/images/kick.png);
+  border-radius: 20px;
+}
+.pressed {
+  opacity: 0.2;
+  box-shadow: #42434d;
+}

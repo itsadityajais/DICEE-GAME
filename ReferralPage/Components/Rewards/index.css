@@ -1,0 +1,29 @@
+img {
+  height: 30px;
+  width: 30px;
+}
+.logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 40px;
+}
+.reward-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* background-color: red; */
+}
+.terms-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.invite-para {
+  color: rgb(15, 145, 67);
+}
+.test {
+  display: flex;
+  justify-content: center;
+}

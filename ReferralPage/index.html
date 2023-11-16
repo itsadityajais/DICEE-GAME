@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>KredX</title>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script>
+      $(function () {
+        $("#header-wrapper").load("Components/Header/index.html");
+        $("#card-wrapper").load("Components/Card/index.html");
+        $("#rewards-wrapper").load("Components/Rewards/index.html");
+      });
+    </script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="Components/Header/index.css" />
+    <link rel="stylesheet" href="Components/Card/index.css" />
+    <link rel="stylesheet" href="Components/Rewards/index.css" />
+  </head>
+
+  <body>
+    <div id="header-wrapper"></div>
+    <div id="card-wrapper" style="width: 50%"></div>
+    <div id="rewards-wrapper"></div>
+  </body>
+</html>
